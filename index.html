@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <style>
+        #bookshelf {
+    position: relative;
+    width: 500px; /* 本棚の幅に合わせる */
+    height: 800px; /* 本棚の高さに合わせる */
+}
+
+#bookshelf-image {
+    width: 100%;
+    height: auto;
+}
+
+.book {
+    position: absolute;
+    width: 50px; /* 本の幅 */
+    height: 150px; /* 本の高さ */
+    background-image: url('book_purple_1.png');
+    background-size: cover;
+}
+    </style>
+</head>
+<body>
+    <div id="bookshelf">
+        <img src="book_shelf.png" alt="Bookshelf" id="bookshelf-image">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
